@@ -1,3 +1,9 @@
+.body {
+    background: radial-gradient(circle, #fdfdfd 0%, #d6e9c6 50%, #4caf50 100%);
+
+}
+
+
 #img {
     display: block;
     margin-left: auto;
@@ -5,13 +11,18 @@
     text-align: center;
     border: 5px solid green;
     border-radius: 15px;
+
 }
+
+
 
 .header {
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
 }
 
-.div1 {
+.rContent {
     width: 200px;
     padding: 10px;
     background-color: beige;
@@ -20,9 +31,9 @@
     position: absolute;
     top: 10px;
     left: 15px;
-    font-family:sans-serif;
+    font-family: sans-serif;
     border-radius: 20px;
-    
+
 }
 
 .text {
@@ -39,20 +50,22 @@
 
 .header2 {
     margin-left: 10px;
+    font-family: sans-serif;
 }
 
-.div2 {
+.lContent {
     width: 300px;
     text-align: center;
     border: solid 1px black;
     background-color: beige;
-    padding: 10px; 
+    padding: 10px;
     position: absolute;
     right: 10px;
     top: 15px;
     border-radius: 20px;
-    
-    
+    font-family: sans-serif;
+
+
 }
 
 .container {
@@ -61,17 +74,17 @@
     position: relative;
 }
 
-.allphoto {
+.allPhoto {
     width: 50px;
     height: 50px;
     border-radius: 300px;
     padding-right: 5px;
-    border: 2px solid grey;
+
 }
 
 
 
-.photo {
+.liTopTen {
     display: flex;
     align-items: center;
 }
@@ -81,20 +94,30 @@
     height: 200px;
     border: 5px solid black;
     border-radius: 20px;
-    
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+
 }
 
-.table , th , tr , td {
+.table,
+th,
+tr,
+td {
     border: 1px solid black;
     width: 20%;
     text-align: center;
     border-collapse: collapse;
     background-color: #96D4D4;
     font-family: sans-serif;
-    
-    
+    margin-left: 20px;
 }
 
 .seasonal {
     margin-top: 10px;
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+
+.location {
+    margin-left: 20px;
+    font-family: sans-serif;
 }
