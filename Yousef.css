@@ -6,14 +6,13 @@
 }
 
 .paragraph {
-
-    border: 20px rgb(61, 200, 238);
-    background-color: aqua;
+    border: 20px;
+    background-color: #FAB95B;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .header1 {
-    background-color: rgb(105, 129, 225);
+    background-color: #FAB95B;
     width: 300px;
 }
 
@@ -21,7 +20,7 @@
     width: 300px;
     text-align: center;
     border: solid 5px black;
-    background-color: rgb(11, 89, 152);
+    background-color: #FAB95B;
     padding: 10px;
     position: absolute;
     right: 10px;
@@ -58,7 +57,7 @@
 
 
 .paragraf {
-    width: 400px;
+    width: 600px;
     text-align: center;
     align-items: center;
     justify-content: center;

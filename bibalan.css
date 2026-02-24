@@ -4,6 +4,7 @@
 
 
 #img {
+    width: 850px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -102,17 +103,20 @@
 th,
 tr,
 td {
+    height: 40px;
     border: 1px solid black;
-    width: 26%;
+    border-radius: 10px;
+    width: 36%;
     text-align: center;
-    border-collapse: collapse;
+    /* border-collapse: collapse; */
     background-color: #96D4D4;
     font-family: sans-serif;
     margin-left: 20px;
+    margin-top: 50px;
 }
 
 .seasonal {
-    margin-top: 10px;
+    margin-top: 70px;
     margin-left: 20px;
     font-family: sans-serif;
 }
@@ -120,7 +124,8 @@ td {
 .location {
     margin-left: 10px;
     font-family: sans-serif;
-    margin-top: 50px;
+    margin-top: 200px;
+    padding: 10px;
 }
 
 .audio {
@@ -162,11 +167,11 @@ audio::-webkit-media-controls-panel {
 
 .video {
     width: 600px;
-    height: 300px;
-    /* margin-left: 400px; */
-    padding-right: 20px;
-    /* border: 10px black solid; */
+    /* height: 300px; */
+    margin-left: 370px;
+    border: 10px rgb(11, 96, 0) solid;
     border-radius: 20px;
+    margin-top: 70px;
 
 
 
@@ -175,8 +180,11 @@ audio::-webkit-media-controls-panel {
 
 
 .galleryheader {
-    margin-left: 800px;
+    width: 340px;
+    margin-left: 500px;
+    margin-top: 80px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F2B50B;
 }
 
 
@@ -189,8 +197,16 @@ audio::-webkit-media-controls-panel {
     flex-direction: column;
     gap: 0px;
     align-items: center;
-    margin-top: 15px;
-    margin-left: 40px;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 430px;
 
 
+
+}
+
+
+.miveh {
+    display: flex;
+    justify-content: flex-end;
 }
